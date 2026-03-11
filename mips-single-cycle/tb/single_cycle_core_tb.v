@@ -19,7 +19,7 @@
            #20;
            @(posedge clk);
            reset=0;
-           repeat(10) @(posedge clk);
+           repeat(20) @(posedge clk);
            
            $display("/n Register REsults:");
            $display("$t0=%d", uut.uut3.registers[8]);
@@ -27,7 +27,14 @@
            $display("$t2=%d", uut.uut3.registers[10]);
            $display("$t3=%d", uut.uut3.registers[11]);
            $display("$t4=%d", uut.uut3.registers[12]);
+           $display("$t5=%d", uut.uut3.registers[13]);
+           $display("$t6=%d", uut.uut3.registers[14]);
+           $display("$t7=%d", uut.uut3.registers[15]);
+           $display("$s0=%d", uut.uut3.registers[16]);
+           $display("$s1=%d", uut.uut3.registers[17]);
+           $display("$s2=%d", uut.uut3.registers[18]);
            $display("Menory[0] =%d", uut.uut8.memory[0]);
+           $display("Menory[4] =%d", uut.uut8.memory[4]);
            $finish;
           
            end  
