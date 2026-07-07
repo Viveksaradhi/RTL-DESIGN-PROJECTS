@@ -33,13 +33,6 @@ Ping-Pong-Buffer-Controller
 ├── Testbench
 │   └── ping_pong_controller_tb.v
 │
-├── Simulation
-│   ├── normal_operation.png
-│   ├── buffer_switching.png
-│   ├── overrun.png
-│   ├── underrun.png
-│   └── simultaneous_read_write.png
-│
 ├── Images
 │   └── block_diagram.png
 │
