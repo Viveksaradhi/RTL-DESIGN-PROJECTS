@@ -1,66 +1,110 @@
 # RTL Design Projects – Verilog HDL
 
-This repository contains my RTL design projects implemented using **Verilog HDL** as part of my learning in **Digital Design, Computer Architecture, and VLSI systems**.
+## Overview
+
+Welcome to my **RTL Design Projects** repository.
+
+This repository contains my Verilog HDL projects developed during my undergraduate studies, internships, and self-learning in Digital Design, FPGA Prototyping, Computer Architecture, and ASIC Design.
+
+The projects cover processor design, communication protocols, memory architectures, buffering techniques, arithmetic circuits, and FPGA implementations.
+
+---
+
+## Skills Demonstrated
+
+- RTL Design
+- Verilog HDL
+- FPGA Prototyping
+- Finite State Machine (FSM) Design
+- Processor Design
+- Computer Architecture
+- Memory Design
+- UART Communication
+- Functional Verification
+- Testbench Development
+- Digital System Design
+
+---
 
 ## Projects
 
-### 1. 5-Stage Pipelined MIPS Processor
-A 32-bit MIPS processor implemented with 5 pipeline stages (IF, ID, EX, MEM, WB).
+| Project | Description |
+|---------|-------------|
+| **32-bit 5-Stage Pipelined MIPS Processor** | Designed a pipelined MIPS processor with forwarding and hazard detection units. |
+| **32-bit Single-Cycle MIPS Processor** | Implemented a complete single-cycle MIPS processor in Verilog HDL. |
+| **UART-Based Password Security System (FPGA)** | FPGA-based password authentication system using UART communication. |
+| **UART Transmitter & Receiver (Echo System) on FPGA** | Implemented UART transmitter, receiver, and echo controller with FPGA validation. |
+| **Ping-Pong Buffer Controller** | Dual-buffer controller for producer-consumer data transfer with overrun and underrun detection. |
+| **Parameterized Dual-Port RAM** | Dual-port RAM with independent clocks, parameterized memory size, and simultaneous read/write support. |
+| **4-bit Signed Booth Multiplier** | Sequential Booth multiplier using FSM and signed arithmetic. |
+| **Synchronous FIFO** | Parameterized FIFO with full and empty flag generation. |
+| **SRAM (Asynchronous Read)** | SRAM design supporting synchronous write and asynchronous read operations. |
+| **UART Transmitter** | FSM-based UART transmitter with configurable baud-rate generator. |
 
-Features:
-- Pipeline registers (IF/ID, ID/EX, EX/MEM, MEM/WB)
-- Forwarding Unit for data hazard resolution
-- Hazard Detection Unit for load-use hazards
-- Control hazard handling using pipeline flush
-- Verilog testbench for verification
-
-Project Link: 
-https://github.com/Viveksaradhi/RTL-DESIGN-PROJECTS/tree/main/mips-5stage-pipeline-processor
-
-
-
-### 2. MIPS Single Cycle Processor
-Implementation of a 32-bit single cycle MIPS processor in Verilog.
-
-Modules:
-- ALU
-- Register File
-- Control Unit
-- Instruction Memory
-- Data Memory
-
-Project Link: 
-https://github.com/Viveksaradhi/RTL-DESIGN-PROJECTS/tree/main/mips-single-cycle-processor
-
-
-
-### 3. Synchronous FIFO
-Parameterizable synchronous FIFO design with full/empty flag logic.
-
-Project Link: 
-https://github.com/Viveksaradhi/RTL-DESIGN-PROJECTS/tree/main/synchronous-fifo
-
-
-### 4. UART Transmitter
-UART transmitter implemented using FSM-based control logic.
-
-Features:
-- Start bit
-- 8-bit data transmission
-- Stop bit
-- Baud rate generator
-
-Project Link: 
-https://github.com/Viveksaradhi/RTL-DESIGN-PROJECTS/tree/main/uart-transmitter
-
-
+---
 
 ## Tools Used
+
 - Verilog HDL
-- ModelSim
 - Xilinx Vivado
+- ModelSim
 - Xilinx ISE
 
+---
+
+## Internships
+
+- **Advanced RTL Design & FPGA Prototyping Internship**
+- **ASIC Design Internship – Osmania University**
+
+---
+
+## Currently Learning
+
+- SystemVerilog
+- UVM
+- ASIC Design Flow
+- FPGA-Based Digital Systems
+
+---
+
+## GitHub Repository Structure
+
+```text
+RTL-DESIGN-PROJECTS
+│
+├── 5-Stage Pipelined MIPS Processor
+├── Single-Cycle MIPS Processor
+├── UART Password Security System
+├── UART Echo System
+├── Ping-Pong Buffer Controller
+├── Dual-Port RAM
+├── Booth Multiplier
+├── Synchronous FIFO
+├── SRAM
+└── UART Transmitter
+```
+
+---
+
+## Future Work
+
+- SPI Controller
+- I²C Master Controller
+- APB Peripheral Design
+- AXI-Lite Peripheral
+- SystemVerilog Verification Projects
+- UVM-Based Verification Environment
+
+---
+
 ## Author
-**Vivek Saradhi** 
-B.Tech ECE – RGUKT Basar
+
+**Vivek Saradhi Vidiyala**
+
+B.Tech – Electronics and Communication Engineering
+
+Rajiv Gandhi University of Knowledge Technologies (RGUKT), Basar
+
+- GitHub: https://github.com/Viveksaradhi
+- LinkedIn: *(Add your LinkedIn profile URL here)*
