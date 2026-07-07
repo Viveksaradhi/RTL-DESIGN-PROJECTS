@@ -39,12 +39,6 @@ UART-Transmitter-Receiver-Echo-System-FPGA
 ├── Echo_System
 │   └── echo_controller.v
 │
-├── Images
-│   ├── tx_waveform.png
-│   ├── rx_waveform.png
-│   ├── echo_waveform.png
-│   └── fpga_demo.jpg
-│
 └── README.md
 ```
 
