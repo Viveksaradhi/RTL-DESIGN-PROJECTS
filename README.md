@@ -107,4 +107,3 @@ B.Tech – Electronics and Communication Engineering
 Rajiv Gandhi University of Knowledge Technologies (RGUKT), Basar
 
 - GitHub: https://github.com/Viveksaradhi
-- LinkedIn: *(Add your LinkedIn profile URL here)*
