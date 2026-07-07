@@ -34,8 +34,7 @@ Booth-Multiplier-Verilog
 ├── Simulation
 │   └── waveform.png
 │
-├── Images
-│   ├── booth_algorithm.png
+├── Image
 │   ├── datapath.png
 │   └── fsm.png
 │
